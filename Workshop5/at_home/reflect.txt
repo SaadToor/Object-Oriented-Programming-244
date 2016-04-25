@@ -1,0 +1,9 @@
+1) allocateAndCopy() function is used to validate if the information
+being entered is not null in  the isVaild() function. If the function
+is true then the function copies all the data from the user to the
+member variables.
+
+2) A copy constructor is needed because when the user enters data and
+wants to store it into a different class without losing it. Becuase,
+when performing memory allcocation, all the data gets deleted after the destructor.But, 
+using copy constructor the data gets stored.

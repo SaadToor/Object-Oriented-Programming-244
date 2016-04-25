@@ -1,0 +1,12 @@
+1) We should avoid using friend operators because friends
+   stab you in the back :). Friend operators are used
+   when the operator needs to acess the class member
+   variables and function, or else they are useless.
+
+2) yes you can by, refferencing the object and putting
+   the operator in the class to create a member operator.
+
+3) the operator+= looks at the right and left for any
+   numbers or objects being implemmented into the main.
+   Therefore the += takes the right hand number, adds it
+   by itself and equals it to the left object.

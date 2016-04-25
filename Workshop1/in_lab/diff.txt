@@ -1,0 +1,10 @@
+
+In line number 19 of your output:
+The output should be:
+2/3: 60
+But your output is: 
+2/3: 50
+     ^
+-----|
+Professors character ASCII code: hex(36), dec(54)
+un-matched character ASCII code: hex(35), dec(53)

@@ -1,0 +1,10 @@
+
+In line number 1 of your output:
+The output should be:
+A: No Name: $0.00
+But your output is: 
+A: No Name : $0.00
+          ^
+----------|
+Professors character ASCII code: hex(3a), dec(58)
+un-matched character ASCII code: hex(20), dec(32)

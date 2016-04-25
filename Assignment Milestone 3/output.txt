@@ -1,0 +1,24 @@
+Script started on Tue 15 Mar 2016 04:39:42 PM EDT
+sstoor3@matrix:~/OOP244/Assignment Milestone 3> ms3
+Linear: one two 
+As is: 
+one
+two
+
+Enter the folowing: 
+three<ENTER>
+four<ENTER>
+<Ctrl-D>
+
+three
+four
+one two three four 
+one
+two
+three
+four
+
+sstoor3@matrix:~/OOP244/Assignment Milestone 3> exit
+exit
+
+Script done on Tue 15 Mar 2016 04:40:21 PM EDT

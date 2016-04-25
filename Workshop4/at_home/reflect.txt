@@ -1,0 +1,16 @@
+1) A safe empty state ensures that the variables start
+with nothing for memory allocation, or if a statment
+is false then the data gets set to 0.
+
+a) The setEmpty() function is the safe empty state,
+which is also being used in the constructor.
+
+b) I selected this state to make the variables that are
+false to 0, so that it will not overload the program.
+
+
+2) Having multiple constructors helps the clients, becuase
+one consturctor can have a safe empty state and the others
+can have values passed into them. Rather than having one
+constructor that passes the values and does a safe empty
+state.

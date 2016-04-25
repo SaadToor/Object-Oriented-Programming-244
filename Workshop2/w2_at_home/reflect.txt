@@ -1,0 +1,79 @@
+1. using examples from your own code explain which features of 
+   object orientation you used.
+
+	The features of object orientation i have used are,
+	encapcilation and inheritance.
+	
+	Encapcilation- Using the header file "AccountNumber.h"
+	I, packed all the #defines in namespace sict.
+	Created a class AccountNumber in the namespace,with 
+	variables, and functions.
+	For example, the header file AccountNumber.h:
+
+namespace sict{
+#define MAX_NAME_LENGTH 40	
+#define MIN_BANKCODE 100
+#define MAX_BANKCODE 999
+#define MIN_BRANCHCODE 1
+#define MAX_BRANCHCODE 220
+#define MIN_ACCNO  10000
+#define MAX_ACCNO  99999
+	class AccountNumber{
+	private:
+    	char _name[MAX_NAME_LENGTH + 1];
+    	int _bankCode;
+    	int _branchCode;
+    	int _accountNumber;
+    	bool _validAccNumber;
+    	void displayName() const;
+    	void displayNumber() const;
+  	public:
+    	void name(const char name[]);
+    	void accountNumber(int bankCode, int branchCode, int accountNumber);
+    	void display(bool display_name = true, bool display_number = true) const;
+    	bool isValid() const;
+  	};
+}
+
+	Inheritance- this was used when creating the display function
+	for the in_lab, and then modifing it in at_home.
+	For example:
+	in_lab has the display function as, "void AccountNumber::display() const"
+	at_home has the display function as, "void display(bool display_name = true, bool display_number = true) const"
+
+	I have modified the function, from in_lab, which does a simple output for the usern into,
+	the at_home that makes the output more detailed and organized.
+	As provided in the example,
+
+	in_lab: Name: John, Account number: 123-123-12345
+		      Thank you!
+	
+	at_home: Name: John, Account number: 123-123-12345
+	 	       -------------
+		       Account number: 123-123-12345
+                       -------------
+		       Name: John
+		       -------------
+		       Thank you!
+
+
+
+
+2. The do{ }while() loop is used instead of the if statement because,
+   the "do while" loop works as the if statment. The compiler runs through
+   the entire loop and looks at the functions, or varibles that can be printed
+   or validated. In this case the compiler looked through the "do while" and
+   found the diplayAccountNumber function with a proper output. It outputed
+   the function and then checked the condition in the while statement and noticed
+   it was false. Therefore, the compiler noticed that the validation was false and compiled,
+   the error message with the displayAccountNumber function ("--------").
+   For example:
+
+	John does not have a valid account number.
+	-------------
+	John does not have a valid account number.
+	-------------
+	John does not have a valid account number.
+	-------------
+	John does not have a valid account number.
+	Invalid account number, (999 999 9999), try again: 

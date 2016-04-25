@@ -1,0 +1,24 @@
+1) If the memory is not deallocated it can overflow
+cause errors to the program. For example, at_home we
+cleaned the memory from the starting for the user to
+enter the info, without any issues, then deleted 
+the pointer that was pointint to the class object.
+As shown below;
+
+Weather* weather;
+weather = new Weather[n];
+delete[] weather;
+
+2) By putting either "using namespace std;" under the header
+iostream header file, or if the function is using less of IO
+stream data than type "std::" and use cout or cin.
+For example, std::cout << "This is a test" << endl;
+
+3) Dynamic memory was required because, the user could over flow and cause errors,
+for example, the weather pointer needed the number of index's to cleared, 
+depending on the user.After the index is cleared the user can enter in 
+the weather data and store it into weather class. At the ending the 
+delete[] weather; was inportant because, after all the data has been entered, 
+it gets stored into the private variables in the class. 
+The delete command allows the stored numbers or characters to be deleted 
+after the function has been completed.

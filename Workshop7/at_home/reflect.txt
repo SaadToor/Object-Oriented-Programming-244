@@ -1,0 +1,18 @@
+1)  Virtual Methods are methods in the a base class that you can override 
+    in derived classes.
+
+2)  Virutal methods need to be implemented, where as pure virtual methods
+    dont need to be implemented.
+
+3)  A Abstract class is a class which contains more than one abstract 
+    method(is declaired but not implemented). They where useful because 
+    the base class, Vehicle, had the methods, and was inherited by Car,
+    which was then inherited by the other two classes. Then the two 
+    methods were changed in the two classes that inherited Car.
+
+4)  A class that only contains pure virtual methods is known as a 
+    interface. They were useful, because inheriting the interface class 
+    Vehicle allowed me to change the pure virtual functions. 
+
+5)  No, because a abstarct class contains more than one abstract method, 
+    where as, a interface class contains pure virtual methods.

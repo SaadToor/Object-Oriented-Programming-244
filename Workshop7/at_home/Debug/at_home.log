@@ -1,0 +1,4 @@
+﻿  Driver.cpp
+c:\users\tdoubleaking\desktop\workshop7\at_home\driver.cpp(9): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+  at_home.vcxproj -> C:\Users\TDoubleAKing\Desktop\Workshop7\at_home\Debug\at_home.exe

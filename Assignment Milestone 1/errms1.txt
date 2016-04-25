@@ -1,0 +1,45 @@
+ms1_prof.cpp: In function ‘int main()’:
+ms1_prof.cpp:87:19: error: cannot bind ‘std::basic_ostream<char>’ lvalue to ‘std::basic_ostream<char>&&’
+/usr/include/c++/4.6/ostream:581:5: error:   initializing argument 1 of ‘std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&&, const _Tp&) [with _CharT = char, _Traits = std::char_traits<char>, _Tp = sict::Date]’
+ms1_prof.cpp:103:12: error: cannot bind ‘std::istream {aka std::basic_istream<char>}’ lvalue to ‘std::basic_istream<char>&&’
+/usr/include/c++/4.6/istream:852:5: error:   initializing argument 1 of ‘std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&&, _Tp&) [with _CharT = char, _Traits = std::char_traits<char>, _Tp = sict::Date]’
+ms1_prof.cpp:124:15: error: cannot bind ‘std::ostream {aka std::basic_ostream<char>}’ lvalue to ‘std::basic_ostream<char>&&’
+/usr/include/c++/4.6/ostream:581:5: error:   initializing argument 1 of ‘std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&&, const _Tp&) [with _CharT = char, _Traits = std::char_traits<char>, _Tp = sict::Date]’
+ms1_prof.cpp:137:15: error: cannot bind ‘std::ostream {aka std::basic_ostream<char>}’ lvalue to ‘std::basic_ostream<char>&&’
+/usr/include/c++/4.6/ostream:581:5: error:   initializing argument 1 of ‘std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&&, const _Tp&) [with _CharT = char, _Traits = std::char_traits<char>, _Tp = sict::Date]’
+ms1_prof.cpp:150:15: error: cannot bind ‘std::ostream {aka std::basic_ostream<char>}’ lvalue to ‘std::basic_ostream<char>&&’
+/usr/include/c++/4.6/ostream:581:5: error:   initializing argument 1 of ‘std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&&, const _Tp&) [with _CharT = char, _Traits = std::char_traits<char>, _Tp = sict::Date]’
+ms1_prof.cpp:163:15: error: cannot bind ‘std::ostream {aka std::basic_ostream<char>}’ lvalue to ‘std::basic_ostream<char>&&’
+/usr/include/c++/4.6/ostream:581:5: error:   initializing argument 1 of ‘std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&&, const _Tp&) [with _CharT = char, _Traits = std::char_traits<char>, _Tp = sict::Date]’
+ms1_prof.cpp:175:15: error: cannot bind ‘std::ostream {aka std::basic_ostream<char>}’ lvalue to ‘std::basic_ostream<char>&&’
+/usr/include/c++/4.6/ostream:581:5: error:   initializing argument 1 of ‘std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&&, const _Tp&) [with _CharT = char, _Traits = std::char_traits<char>, _Tp = sict::Date]’
+ms1_prof.cpp:187:15: error: cannot bind ‘std::ostream {aka std::basic_ostream<char>}’ lvalue to ‘std::basic_ostream<char>&&’
+/usr/include/c++/4.6/ostream:581:5: error:   initializing argument 1 of ‘std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&&, const _Tp&) [with _CharT = char, _Traits = std::char_traits<char>, _Tp = sict::Date]’
+ms1_prof.cpp:199:15: error: cannot bind ‘std::ostream {aka std::basic_ostream<char>}’ lvalue to ‘std::basic_ostream<char>&&’
+/usr/include/c++/4.6/ostream:581:5: error:   initializing argument 1 of ‘std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&&, const _Tp&) [with _CharT = char, _Traits = std::char_traits<char>, _Tp = sict::Date]’
+ms1_prof.cpp:211:15: error: cannot bind ‘std::ostream {aka std::basic_ostream<char>}’ lvalue to ‘std::basic_ostream<char>&&’
+/usr/include/c++/4.6/ostream:581:5: error:   initializing argument 1 of ‘std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&&, const _Tp&) [with _CharT = char, _Traits = std::char_traits<char>, _Tp = sict::Date]’
+ms1_prof.cpp:220:12: error: cannot bind ‘std::istream {aka std::basic_istream<char>}’ lvalue to ‘std::basic_istream<char>&&’
+/usr/include/c++/4.6/istream:852:5: error:   initializing argument 1 of ‘std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&&, _Tp&) [with _CharT = char, _Traits = std::char_traits<char>, _Tp = sict::Date]’
+ms1_prof.cpp:236:12: error: cannot bind ‘std::istream {aka std::basic_istream<char>}’ lvalue to ‘std::basic_istream<char>&&’
+/usr/include/c++/4.6/istream:852:5: error:   initializing argument 1 of ‘std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&&, _Tp&) [with _CharT = char, _Traits = std::char_traits<char>, _Tp = sict::Date]’
+ms1_prof.cpp:237:32: error: cannot bind ‘std::basic_ostream<char>’ lvalue to ‘std::basic_ostream<char>&&’
+/usr/include/c++/4.6/ostream:581:5: error:   initializing argument 1 of ‘std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&&, const _Tp&) [with _CharT = char, _Traits = std::char_traits<char>, _Tp = sict::Date]’
+ms1_prof.cpp:252:12: error: cannot bind ‘std::istream {aka std::basic_istream<char>}’ lvalue to ‘std::basic_istream<char>&&’
+/usr/include/c++/4.6/istream:852:5: error:   initializing argument 1 of ‘std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&&, _Tp&) [with _CharT = char, _Traits = std::char_traits<char>, _Tp = sict::Date]’
+ms1_prof.cpp:253:32: error: cannot bind ‘std::basic_ostream<char>’ lvalue to ‘std::basic_ostream<char>&&’
+/usr/include/c++/4.6/ostream:581:5: error:   initializing argument 1 of ‘std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&&, const _Tp&) [with _CharT = char, _Traits = std::char_traits<char>, _Tp = sict::Date]’
+ms1_prof.cpp:268:12: error: cannot bind ‘std::istream {aka std::basic_istream<char>}’ lvalue to ‘std::basic_istream<char>&&’
+/usr/include/c++/4.6/istream:852:5: error:   initializing argument 1 of ‘std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&&, _Tp&) [with _CharT = char, _Traits = std::char_traits<char>, _Tp = sict::Date]’
+ms1_prof.cpp:269:32: error: cannot bind ‘std::basic_ostream<char>’ lvalue to ‘std::basic_ostream<char>&&’
+/usr/include/c++/4.6/ostream:581:5: error:   initializing argument 1 of ‘std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&&, const _Tp&) [with _CharT = char, _Traits = std::char_traits<char>, _Tp = sict::Date]’
+ms1_prof.cpp:284:12: error: cannot bind ‘std::istream {aka std::basic_istream<char>}’ lvalue to ‘std::basic_istream<char>&&’
+/usr/include/c++/4.6/istream:852:5: error:   initializing argument 1 of ‘std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&&, _Tp&) [with _CharT = char, _Traits = std::char_traits<char>, _Tp = sict::Date]’
+ms1_prof.cpp:285:32: error: cannot bind ‘std::basic_ostream<char>’ lvalue to ‘std::basic_ostream<char>&&’
+/usr/include/c++/4.6/ostream:581:5: error:   initializing argument 1 of ‘std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&&, const _Tp&) [with _CharT = char, _Traits = std::char_traits<char>, _Tp = sict::Date]’
+Date.cpp: In member function ‘void sict::Date::errCode(int)’:
+Date.cpp:32:29: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+Date.cpp:35:36: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+Date.cpp:38:36: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+Date.cpp:41:35: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+Date.cpp:44:35: warning: suggest parentheses around assignment used as truth value [-Wparentheses]

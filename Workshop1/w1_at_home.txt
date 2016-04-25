@@ -1,0 +1,32 @@
+1.  Open Visual Studio
+
+2.  Click on "New Project" or "File" and "New project"
+
+3.  Uncheck "Create directory from solution" and "Add to source 
+    control", at the bottom right
+
+4.  Select C++, and then Win32 Console Application
+
+5.  Pick the name and the destination
+
+6.  Click ok and then next
+
+7.  Select Console application and check only "Empty project"
+
+8.  Click finish
+
+9.  On the right side of the panel right click on "Source Files" 
+    and "Add", and then "New Item" and select "C++ Files". Name 
+    the file appropiatly and click "Add"
+
+10. To add a header file, on the right paneln right click on
+    "Header Files" and "Add", and then "New Item" and select 
+    "Header Files". Name the file appropiatly and click "Add"
+
+11. Create a simple program
+
+12. Save the file by pressing "ctrl + S" or clicking on "File" in 
+    the top left and then click "Save"
+
+13. When finished the code, at the top click on "DEBUG", and
+    click "Start Without Debugging", or press ctrl + F5.

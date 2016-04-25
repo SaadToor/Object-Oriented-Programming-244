@@ -1,0 +1,1 @@
+http://stackoverflow.com/questions/33527742/c-operator-functions

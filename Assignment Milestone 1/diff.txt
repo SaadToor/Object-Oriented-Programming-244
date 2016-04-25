@@ -1,0 +1,10 @@
+
+In line number 42 of your output:
+The output should be:
+Month validation, 
+But your output is: 
+
+^
+|
+Professors character ASCII code: hex(4d), dec(77)
+un-matched character ASCII code: hex(d), dec(13)
